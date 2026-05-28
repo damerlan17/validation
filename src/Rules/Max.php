@@ -2,7 +2,7 @@
 
 namespace Validation\Rules;
 
-use Validation\Validator\AbstractValidator;
+use app\Validator\AbstractValidator;
 
 class Max extends AbstractValidator
 {

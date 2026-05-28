@@ -1,21 +1,22 @@
 {
   "name": "damerlan17/validation",
-  "description": "Simple array collection wrapper for PHP",
+  "description": "Flexible validation library",
   "type": "library",
   "license": "MIT",
   "authors": [
     {
-      "name": "damerlan17",
+      "name": "Damerlan",
       "email": "uchunakdamerlan@gmail.com"
     }
   ],
   "minimum-stability": "dev",
   "require": {
-    "php": "^7.4 | ^8.0"
+    "php": "^7.4|^8.0",
+    "illuminate/database": "^10.0"
   },
   "autoload": {
     "psr-4": {
-      "Collect\\": "src/"
+      "Validation\\": "src/"
     },
     "files": [
       "src/helpers.php"

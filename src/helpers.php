@@ -2,7 +2,7 @@
 
 namespace Validation;
 
-use Validation\Validator\Validator;
+use app\Validator\Validator;
 
 if (!function_exists('Validation\\validator')) {
     function validator(array $data, array $rules, array $messages = [], array $customValidators = []): Validator
