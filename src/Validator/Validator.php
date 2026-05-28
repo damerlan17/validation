@@ -22,12 +22,12 @@ class Validator
     protected function getDefaultValidators(): array
     {
         return [
-            'required' => \Validation\Rules\Required::class,
-            'unique'   => \Validation\Rules\Unique::class,
-            'numeric'  => \Validation\Rules\Numeric::class,
-            'min'      => \Validation\Rules\Min::class,
-            'max'      => \Validation\Rules\Max::class,
-            'exists'   => \Validation\Rules\Exists::class,
+            'required'    => \Validation\Rules\Required::class,
+            'unique'      => \Validation\Rules\Unique::class,
+            'numeric'     => \Validation\Rules\Numeric::class,
+            'min'         => \Validation\Rules\Min::class,
+            'max'         => \Validation\Rules\Max::class,
+            'exists'      => \Validation\Rules\Exists::class,
             'date_format' => \Validation\Rules\DateFormat::class,
         ];
     }

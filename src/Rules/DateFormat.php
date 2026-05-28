@@ -2,8 +2,8 @@
 
 namespace Validation\Rules;
 
-use app\Validator\AbstractValidator;
 use DateTime;
+use Validation\Validator\AbstractValidator;
 
 class DateFormat extends AbstractValidator
 {

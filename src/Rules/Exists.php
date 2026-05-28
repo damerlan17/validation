@@ -2,8 +2,8 @@
 
 namespace Validation\Rules;
 
-use app\Validator\AbstractValidator;
 use Illuminate\Database\Capsule\Manager as Capsule;
+use Validation\Validator\AbstractValidator;
 
 class Exists extends AbstractValidator
 {

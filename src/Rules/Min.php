@@ -2,7 +2,7 @@
 
 namespace Validation\Rules;
 
-use app\Validator\AbstractValidator;
+use Validation\Validator\AbstractValidator;
 
 class Min extends AbstractValidator
 {

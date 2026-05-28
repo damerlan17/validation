@@ -1,6 +1,6 @@
 {
   "name": "damerlan17/validation",
-  "description": "Flexible validation library",
+  "description": "Flexible validation library for PHP",
   "type": "library",
   "license": "MIT",
   "authors": [
